@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Tworit Dash</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #004080;
+      --bg: #f7f7f7;
+      --text: #333;
+      --journal: #cce5ff;
+      --conference: #e2f0cb;
+      --thesis: #fce5cd;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1e1e1e;
+        --text: #e0e0e0;
+      }
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+    }
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0.5rem 0;
+      font-size: 2rem;
+    }
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    h2 {
+      color: var(--primary);
+    }
+    .links a,
+    .cv-download a {
+      display: inline-block;
+      margin: 0.5rem 1rem 0.5rem 0;
+      color: var(--primary);
+      text-decoration: none;
+      border: 1px solid var(--primary);
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      margin: 2rem 0;
+    }
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      section {
+        padding: 1.5rem 1rem;
+      }
+    }
+    ul.biblist {
+      padding-left: 1.2em;
+    }
+    ul.biblist li {
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      border-radius: 6px;
+    }
+    .journal { background-color: var(--journal); }
+    .conference { background-color: var(--conference); }
+    .thesis { background-color: var(--thesis); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dr. Tworit Dash</h1>
+    <p>Postdoctoral Researcher at TU Delft, Netherlands</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I am a postdoctoral researcher at the Microwave Sensing, Signals and Systems (MS3) group within the Department of Microelectronics at Delft University of Technology (TU Delft). My research focuses on advanced signal processing techniques for weather radar systems, particularly in the context of fast-scanning phased array radars.</p>
+    <p>Originally from Odisha, India, I earned my Bachelor of Technology in Instrumentation and Electronics Engineering from the College of Engineering and Technology, Bhubaneswar, in 2016. Following this, I worked at Robert Bosch India as an On-Board Diagnostics Calibration Engineer from 2016 to 2018.</p>
+    <p>In 2020, I completed my Master of Science (cum laude) in Electrical Engineering at TU Delft, specializing in Telecommunication and Sensing Systems. My MSc thesis, conducted in collaboration with ASTRON, focused on the computationally efficient design of conical horn antennas for the Square Kilometre Array (SKA) project.</p>
+    <p>I obtained my PhD from TU Delft in February 2025, with a dissertation titled "On Doppler Processing for Fast-Scanning Weather Radars." My current work involves developing electromagnetic inverse problem formulations and novel signal-processing algorithms for atmospheric parameter retrieval in the PHARA (Phased Array Radar for Atmospheric Research) project.</p>
+    <p>I have contributed to several publications in the field of weather radar signal processing and antenna design. Additionally, I have developed the TWORIT tool, which facilitates the calculation of S-parameters and far fields for complex waveguide structures.</p>
+  </section>
+
+  <section>
+    <h2>Links</h2>
+    <div class="links">
+      <a href="https://microelectronics.tudelft.nl/People/bio.php?id=728" target="_blank">TU Delft Profile</a>
+      <a href="https://orcid.org/0000-0003-3127-8841" target="_blank">ORCID</a>
+      <a href="https://github.com/tworitdash/TWORIT" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Publications</h2>
+    <ul class="biblist">
+      <li class="journal"><strong>Dash et al., 2023</strong>: Doppler spectrum parameter estimation using a semi-analytical model, <em>IEEE TGRS</em>.</li>
+      <li class="journal"><strong>Dash et al., 2024</strong>: Counter-aliasing is better than De-aliasing, <em>IEEE TGRS</em>.</li>
+
+      <li class="conference"><strong>Dash et al., 2022</strong>: Performance analysis of the wind field estimation for a very fast scanning weather radar, <em>IRS</em>.</li>
+      <li class="conference"><strong>Dash et al., 2023</strong>: Beamforming for a Fast Scanning Phased Array Weather Radar, <em>EuRAD</em>.</li>
+      <li class="conference"><strong>Dash et al., 2023</strong>: Precipitation Doppler spectrum reconstruction with Gaussian process prior, <em>CAMA</em>.</li>
+      <li class="conference"><strong>Dash et al., 2023</strong>: Doppler Spectrum Reconstruction for Precipitation with Gaussian Process Models, <em>AMS Radar Conference</em>.</li>
+      <li class="conference"><strong>Dash et al., 2024</strong>: Incoherent Doppler Processing for Moment and Noise Estimation, <em>URSI AT-RASC</em>.</li>
+      <li class="conference"><strong>Dash et al., 2024</strong>: Radiation from Open-ended Over-moded Cylindrical Waveguide, <em>URSI AT-RASC</em>.</li>
+      <li class="conference"><strong>Mohamed et al., 2024</strong>: Non-Uniform Sampling to Avoid Aliasing in Doppler Spectrum, <em>IRS</em>.</li>
+      <li class="conference"><strong>Dash et al., 2024</strong>: Detection of Precipitation Using Scanning Radars, <em>IGARSS</em>.</li>
+      <li class="conference"><strong>Lu et al., 2024</strong>: Application of Circular Statistics on Doppler Spectrum, <em>RADAR</em>.</li>
+
+      <li class="thesis"><strong>Dash, 2020</strong>: Computationally Efficient Conical Horn Antenna Design, <em>Tech. Rep.</em></li>
+      <li class="thesis"><strong>Dash, 2025</strong>: On Doppler Processing for Fast Scanning Weather Radars, <em>PhD Thesis</em>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Download CV</h2>
+    <div class="cv-download">
+      <a href="/mnt/data/Tworit_Kumar_Dash_Resume (1).pdf" target="_blank">Download my CV (PDF)</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Tworit Dash. All rights reserved.
+  </footer>
+</body>
+</html>
