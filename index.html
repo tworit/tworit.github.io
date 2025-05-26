@@ -1,4 +1,4 @@
-<!-- Final HTML with all publication links corrected, ordered by year, and datasets included -->
+<!-- Final HTML with all publication links, sorted, datasets, and color legend -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,14 +52,27 @@
       padding: 0.5rem 1rem;
       border-radius: 5px;
     }
-    @media screen and (max-width: 600px) {
-      header h1 {
-        font-size: 1.5rem;
-      }
-      section {
-        padding: 1.5rem 1rem;
-      }
+    .legend {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin: 1rem 0;
     }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .legend-color {
+      width: 16px;
+      height: 16px;
+      border-radius: 3px;
+      display: inline-block;
+    }
+    .journal { background-color: var(--journal); }
+    .conference { background-color: var(--conference); }
+    .thesis { background-color: var(--thesis); }
+    .dataset { background-color: var(--dataset); }
     ul.biblist {
       padding-left: 1.2em;
     }
@@ -68,15 +81,19 @@
       padding: 0.75rem;
       border-radius: 6px;
     }
-    .journal { background-color: var(--journal); }
-    .conference { background-color: var(--conference); }
-    .thesis { background-color: var(--thesis); }
-    .dataset { background-color: var(--dataset); }
     #searchInput {
       width: 100%;
       padding: 0.5rem;
       margin: 1rem 0;
       font-size: 1rem;
+    }
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      section {
+        padding: 1.5rem 1rem;
+      }
     }
   </style>
   <script>
@@ -109,6 +126,16 @@
       <a href="https://github.com/tworitdash/" target="_blank">GitHub</a>
     </div>
   </section>
+
+  <section>
+    <h2>Publications</h2>
+    <div class="legend">
+      <div class="legend-item"><span class="legend-color journal"></span>Journal</div>
+      <div class="legend-item"><span class="legend-color conference"></span>Conference</div>
+      <div class="legend-item"><span class="legend-color thesis"></span>Thesis</div>
+      <div class="legend-item"><span class="legend-color dataset"></span>Dataset/Software</div>
+    </div>
+    <input type="text" id="searchInput" onkeyup="filterPublications()" placeholder="Search publications..." />
 
   <section>
     <h2>Publications</h2>
