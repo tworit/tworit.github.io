@@ -1,0 +1,12 @@
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+alice.jpeg
+profile.jpg
+Tworit.jpg
+twentysecondcv.cls
+LICENSE

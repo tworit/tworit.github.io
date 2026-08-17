@@ -1,20 +1,285 @@
-- {year: 2026, type: preprint, title: "Joint Retrieval of Radial Wind, Terminal Fall Velocity, and Median Diameter From Single-Polarization Fast-Scanning Weather Radar", authors: "Tworit K. Dash, Hans Driessen, Oleg A. Krasnov, and Alexander G. Yarovoy", venue: arXiv, url: "https://arxiv.org/abs/2608.02364", link_label: arXiv}
-- {year: 2026, type: conference, title: "Adaptive Multi-Modal Doppler Spectrum Estimation", authors: "Apostolos Pappas, Tworit Dash, Jonas Heylen, Alexander Yarovoy, and Francesco Fioranelli", venue: "International Radar Symposium (IRS)", url: "https://research.tudelft.nl/en/publications/adaptive-multi-modal-doppler-spectrum-estimation/"}
-- {year: 2026, type: journal, title: "Adaptive Radar Approaches for Doppler Moment Estimation", authors: "Apostolos Pappas, Tworit Dash, Alexander Yarovoy, Francesco Fioranelli, Shafi Sardar, and Marc Schleiss", venue: "IEEE Geoscience and Remote Sensing Letters", url: "https://doi.org/10.1109/LGRS.2025.3646459", link_label: DOI}
-- {year: 2026, type: journal, title: "Doppler Moment Estimation for Precipitation With a Phased Array Radar Using Latent Beamforming", authors: "Tworit Dash, Sen Yuan, Jonas Heylen, and Alexander Yarovoy", venue: "IEEE Transactions on Geoscience and Remote Sensing", url: "https://doi.org/10.1109/TGRS.2025.3645429", link_label: DOI}
-- {year: 2025, type: journal, title: "A Doppler De-Aliasing Technique for FMCW-TDM MIMO Automotive Radar", authors: "Sen Yuan, Tworit K. Dash, Ignacio Roldan Montero, Francesco Fioranelli, and Alexander G. Yarovoy", venue: "IEEE Transactions on Instrumentation and Measurement", url: "https://doi.org/10.1109/TIM.2025.3623765", link_label: DOI}
-- {year: 2025, type: conference, title: "Assessing Polarimetric Weather Radar Data Quality Under Cross-Polar Coupling and Sampling Limits", authors: "Jonas Heylen, Tworit Dash, Gerwin Theis, Rob van der Meer, Yankı Aslan, and Alexander Yarovoy", venue: "IEEE Radar Conference", url: "https://doi.org/10.1109/RadarConf2559087.2025.11205140", link_label: DOI}
-- {year: 2025, type: conference, title: "Parametric Estimation of Elevation-Doppler Profiles with Phased Array Radar for Precipitation", authors: "Tworit Dash, Oleg Krasnov, Hans Driessen, and Alexander Yarovoy", venue: "European Radar Conference (EuRAD)", url: "https://doi.org/10.23919/EuRAD65285.2025.11234103", link_label: DOI}
-- {year: 2025, type: conference, title: "Using Spherical Harmonics to Model Mutual Coupling Effects on Embedded Element Patterns", authors: "Tworit Dash, N. B. Onat, Yankı Aslan, and Alexander Yarovoy", venue: ICEAA, url: "https://doi.org/10.1109/ICEAA65662.2025.11305766", link_label: DOI}
-- {year: 2025, type: thesis, title: "On Doppler Processing for Fast Scanning Weather Radars", authors: "Tworit K. Dash", venue: "PhD thesis, TU Delft", url: "https://doi.org/10.4233/uuid:ee3b682f-75e3-4210-83c3-a71dc44d1b4d", link_label: Thesis}
-- {year: 2024, type: journal, title: "Counter-Aliasing Is Better Than De-Aliasing — Application to Doppler Weather Radar With Aperiodic Pulse Train", authors: "Tworit Dash, Hans Driessen, Oleg A. Krasnov, and Alexander G. Yarovoy", venue: "IEEE Transactions on Geoscience and Remote Sensing", url: "https://doi.org/10.1109/TGRS.2024.3438567", link_label: DOI}
-- {year: 2024, type: journal, title: "Doppler Spectrum Parameter Estimation for Weather Radar Echoes Using a Parametric Semi-Analytical Model", authors: "Tworit Dash, Hans Driessen, Oleg Krasnov, and Alexander Yarovoy", venue: "IEEE Transactions on Geoscience and Remote Sensing", url: "https://doi.org/10.1109/TGRS.2023.3338233", link_label: DOI}
-- {year: 2024, type: conference, title: "Detection of Precipitation Using Scanning Radars", authors: "Tworit Dash et al.", venue: IGARSS, url: "https://ieeexplore.ieee.org/document/10642725"}
-- {year: 2024, type: conference, title: "Incoherent Doppler Processing for Doppler Moment and Noise Estimation for Precipitation", authors: "Tworit Dash, Hans Driessen, Oleg Krasnov, and Alexander Yarovoy", venue: "URSI AT-RASC", url: "https://doi.org/10.46620/ursiatrasc24/gtax4119", link_label: DOI}
-- {year: 2024, type: conference, title: "Radiation from the Open-Ended Over-Moded Cylindrical Waveguide", authors: "Tworit Dash, David Prinsloo, and Alexander Yarovoy", venue: "URSI AT-RASC", url: "https://doi.org/10.46620/ursiatrasc24/qeut4611", link_label: DOI}
-- {year: 2024, type: conference, title: "Application of Non-Uniform Sampling to Avoid Aliasing", authors: "Mohamed et al., including Tworit Dash", venue: "International Radar Symposium (IRS)", url: "https://ieeexplore.ieee.org/document/10644744"}
-- {year: 2024, type: conference, title: "Application of Circular Statistics on Doppler Spectrum", authors: "Lu et al., including Tworit Dash", venue: "IEEE Radar Conference", url: "https://ieeexplore.ieee.org/document/10993795"}
-- {year: 2023, type: conference, title: "Beamforming for a Fast Scanning Phased Array Weather Radar", authors: "Tworit Dash, Alexandru Gîrdianu, Oleg A. Krasnov, and Alexander G. Yarovoy", venue: "European Radar Conference (EuRAD)", url: "https://doi.org/10.23919/EuRAD58043.2023.10289351", link_label: DOI}
-- {year: 2023, type: conference, title: "Precipitation Doppler Spectrum Reconstruction With Gaussian Process Prior", authors: "Tworit K. Dash, Hans Driessen, Oleg A. Krasnov, and Alexander Yarovoy", venue: "IEEE CAMA", url: "https://doi.org/10.1109/CAMA57522.2023.10352683", link_label: DOI}
-- {year: 2022, type: conference, title: "Performance Analysis of the Wind Field Estimation for a Very Fast Scanning Weather Radar", authors: "Tworit Dash, Oleg A. Krasnov, and Alexander G. Yarovoy", venue: "International Radar Symposium (IRS)", url: "https://ieeexplore.ieee.org/document/9798794"}
-- {year: 2020, type: thesis, title: "Computationally Efficient Conical Horn Antenna Design", authors: "Tworit K. Dash", venue: "MSc thesis, TU Delft", url: "http://resolver.tudelft.nl/uuid:190e87c7-9309-470f-a821-43b7c3b8867b", link_label: Thesis}
+- year: 2026
+  published: 3 August 2026
+  type: preprint
+  slug: joint-retrieval
+  domain: Weather radar · inverse problems
+  title: Joint Retrieval of Radial Wind, Terminal Fall Velocity, and Median Diameter From Single-Polarization Fast-Scanning Weather Radar
+  authors: Tworit K. Dash, Hans Driessen, Oleg A. Krasnov, and Alexander G. Yarovoy
+  venue: arXiv
+  url: https://arxiv.org/abs/2608.02364
+  link_label: arXiv
+  summary: A likelihood-based inversion of short single-polarization Doppler spectra for wind and precipitation quantities, with latent microphysical parameters kept inside the forward model.
+  key_points:
+    - Derived geophysical quantities can remain stable even when the underlying drop-size parameters are weakly identifiable.
+    - Pooling several incoherent short records preserves useful spectral-shape information.
+    - The work separates what the model can fit from what the measurement can support as a credible output.
+- year: 2026
+  published: May 2026
+  type: conference
+  slug: adaptive-multimodal
+  domain: Spectral estimation
+  title: Adaptive Multi-Modal Doppler Spectrum Estimation
+  authors: Apostolos Pappas, Tworit Dash, Jonas Heylen, Alexander Yarovoy, and Francesco Fioranelli
+  venue: International Radar Symposium (IRS)
+  url: https://research.tudelft.nl/en/publications/adaptive-multi-modal-doppler-spectrum-estimation/
+  summary: An adaptive treatment of Doppler spectra whose structure cannot be represented adequately by a single spectral mode.
+  key_points:
+    - Multi-modal structure is treated explicitly instead of being compressed into one set of moments.
+    - The estimator adapts its representation to the information present in the observed spectrum.
+- year: 2025
+  published: 19 December 2025
+  volume_year: IEEE GRSL, volume 23 (2026)
+  type: journal
+  slug: adaptive-radar-moments
+  domain: Spectral estimation · adaptive sensing
+  title: Adaptive Radar Approaches for Doppler Moment Estimation
+  authors: Apostolos Pappas, Tworit Dash, Alexander Yarovoy, Francesco Fioranelli, Shafi Sardar, and Marc Schleiss
+  venue: IEEE Geoscience and Remote Sensing Letters
+  url: https://doi.org/10.1109/LGRS.2025.3646459
+  link_label: DOI
+  summary: A scan-to-scan adaptive framework that selects pulse repetition time and sample count to balance Doppler ambiguity against estimation variance.
+  key_points:
+    - Radar acquisition parameters are adapted to local spectral conditions rather than fixed globally.
+    - A multilag estimator improves Doppler-width estimation.
+    - The analysis makes the aliasing-versus-precision trade-off explicit.
+- year: 2025
+  published: December 2025
+  volume_year: IEEE TGRS, volume 64 (2026)
+  type: journal
+  slug: latent-beamforming
+  domain: Phased arrays · Bayesian inference
+  title: Doppler Moment Estimation for Precipitation With a Phased Array Radar Using Latent Beamforming
+  authors: Tworit Dash, Sen Yuan, Jonas Heylen, and Alexander Yarovoy
+  venue: IEEE Transactions on Geoscience and Remote Sensing
+  url: https://doi.org/10.1109/TGRS.2025.3645429
+  link_label: DOI
+  summary: A joint statistical inversion of element-level array spectra that estimates elevation-dependent Doppler moments without first forming explicit receive beams.
+  key_points:
+    - Beamforming is absorbed into the forward model instead of used as a lossy preprocessing step.
+    - Hamiltonian Monte Carlo provides posterior profiles and uncertainty, not only point estimates.
+    - Performance is interpreted against Cramér-Rao bounds to distinguish algorithmic error from information limits.
+- year: 2025
+  published: 2025
+  type: journal
+  slug: automotive-dealiasing
+  domain: Automotive radar · inverse problems
+  title: A Doppler De-Aliasing Technique for FMCW-TDM MIMO Automotive Radar
+  authors: Sen Yuan, Tworit K. Dash, Ignacio Roldan Montero, Francesco Fioranelli, and Alexander G. Yarovoy
+  venue: IEEE Transactions on Instrumentation and Measurement
+  url: https://doi.org/10.1109/TIM.2025.3623765
+  link_label: DOI
+  summary: A model-based recovery method for the velocity ambiguity created by time-division multiplexing in MIMO automotive radar.
+  key_points:
+    - The TDM signal model shows precisely where the reduced unambiguous velocity interval enters.
+    - A new activation mode and two-stage cross-entropy optimization recover multiple targets.
+    - The method avoids the common requirement for overlapping transmit-receive antenna elements.
+- year: 2025
+  published: 4 October 2025
+  type: conference
+  slug: polarimetric-quality
+  domain: Phased arrays · measurement quality
+  title: Assessing Polarimetric Weather Radar Data Quality Under Cross-Polar Coupling and Sampling Limits
+  authors: Jonas Heylen, Tworit Dash, Gerwin Theis, Rob van der Meer, Yankı Aslan, and Alexander Yarovoy
+  venue: IEEE Radar Conference
+  url: https://doi.org/10.1109/RadarConf2559087.2025.11205140
+  link_label: DOI
+  summary: An assessment of how cross-polar coupling and finite sampling jointly affect the quality of polarimetric phased-array radar observables.
+  key_points:
+    - Hardware coupling and statistical sampling are separated as distinct error mechanisms.
+    - The analysis identifies measurement regimes in which polarimetric products become unreliable.
+- year: 2025
+  published: 24 September 2025
+  type: conference
+  slug: elevation-doppler
+  domain: Phased arrays · spectral estimation
+  title: Parametric Estimation of Elevation-Doppler Profiles with Phased Array Radar for Precipitation
+  authors: Tworit Dash, Oleg Krasnov, Hans Driessen, and Alexander Yarovoy
+  venue: European Radar Conference (EuRAD)
+  url: https://doi.org/10.23919/EuRAD65285.2025.11234103
+  link_label: DOI
+  summary: A parametric formulation for recovering coupled elevation-Doppler precipitation structure from phased-array measurements.
+  key_points:
+    - Elevation and Doppler are estimated as a coupled profile rather than in isolated processing stages.
+    - Physical parameterization reduces the burden placed on short and noisy records.
+- year: 2025
+  published: 8 September 2025
+  type: conference
+  slug: spherical-harmonics
+  domain: Antenna measurements · electromagnetics
+  title: Using Spherical Harmonics to Model Mutual Coupling Effects on Embedded Element Patterns
+  authors: Tworit Dash, N. B. Onat, Yankı Aslan, and Alexander Yarovoy
+  venue: ICEAA
+  url: https://doi.org/10.1109/ICEAA65662.2025.11305766
+  link_label: DOI
+  summary: A spherical-harmonic representation of how mutual coupling changes the embedded element patterns measured in antenna arrays.
+  key_points:
+    - Vector spherical structure provides a compact bridge between field measurements and array behaviour.
+    - The model isolates coupling-induced pattern changes rather than treating them as unexplained calibration error.
+    - The same model-based philosophy used in spectral inversion is extended to electromagnetic measurements.
+- year: 2025
+  published: 4 February 2025
+  type: thesis
+  slug: phd-thesis
+  domain: Spectral estimation · weather radar
+  title: On Doppler Processing for Fast Scanning Weather Radars
+  authors: Tworit K. Dash
+  venue: PhD thesis, TU Delft
+  url: https://doi.org/10.4233/uuid:ee3b682f-75e3-4210-83c3-a71dc44d1b4d
+  link_label: Thesis
+  summary: A model-based study of what fast-scanning radar loses through short observation times and how Doppler information can be recovered, estimated, and bounded.
+  key_points:
+    - Finite observation time is treated as part of the measurement model, not merely a practical inconvenience.
+    - Parametric spectra, nonuniform sampling, and incoherent processing reveal complementary routes around information loss.
+    - The thesis emphasizes explanation and performance limits alongside estimation techniques.
+- year: 2024
+  published: 2024
+  type: journal
+  slug: counter-aliasing
+  domain: Sampling theory · weather radar
+  title: Counter-Aliasing Is Better Than De-Aliasing — Application to Doppler Weather Radar With Aperiodic Pulse Train
+  authors: Tworit Dash, Hans Driessen, Oleg A. Krasnov, and Alexander G. Yarovoy
+  venue: IEEE Transactions on Geoscience and Remote Sensing
+  url: https://doi.org/10.1109/TGRS.2024.3438567
+  link_label: DOI
+  summary: An analysis of why periodic sampling creates Doppler replicas and how an aperiodic pulse train can prevent coherent alias formation at the measurement stage.
+  key_points:
+    - The work distinguishes preventing alias structure from trying to unwrap it afterward.
+    - Aperiodic timing redistributes ambiguity rather than accepting periodic spectral replicas.
+    - The paper explains the mechanism through continuous signal and sampling analysis.
+- year: 2024
+  published: 2024
+  type: journal
+  slug: semianalytical-spectrum
+  domain: Spectral estimation · weather radar
+  title: Doppler Spectrum Parameter Estimation for Weather Radar Echoes Using a Parametric Semi-Analytical Model
+  authors: Tworit Dash, Hans Driessen, Oleg Krasnov, and Alexander Yarovoy
+  venue: IEEE Transactions on Geoscience and Remote Sensing
+  url: https://doi.org/10.1109/TGRS.2023.3338233
+  link_label: DOI
+  summary: A finite-record semi-analytical spectrum model used to estimate precipitation Doppler parameters directly from the expected periodogram shape.
+  key_points:
+    - Spectral leakage and short-record effects are built into the forward model.
+    - Parametric likelihood estimation retains information discarded by moment-only processing.
+    - The model enables principled uncertainty and performance analysis.
+- year: 2024
+  published: 2024
+  type: conference
+  slug: precipitation-detection
+  domain: Weather radar · detection
+  title: Detection of Precipitation Using Scanning Radars
+  authors: Tworit Dash et al.
+  venue: IGARSS
+  url: https://ieeexplore.ieee.org/document/10642725
+  summary: A detection study tailored to the limited dwell time and changing geometry of scanning precipitation radars.
+  key_points:
+    - Detection is formulated around the statistics of short scanning-radar observations.
+    - The work connects acquisition constraints to practical precipitation detectability.
+- year: 2024
+  published: 2024
+  type: conference
+  slug: incoherent-processing
+  domain: Spectral estimation · weather radar
+  title: Incoherent Doppler Processing for Doppler Moment and Noise Estimation for Precipitation
+  authors: Tworit Dash, Hans Driessen, Oleg Krasnov, and Alexander Yarovoy
+  venue: URSI AT-RASC
+  url: https://doi.org/10.46620/ursiatrasc24/gtax4119
+  link_label: DOI
+  summary: A study of how multiple independent short spectra can be combined to improve Doppler-moment and noise estimation.
+  key_points:
+    - Incoherent aggregation gains statistical stability without requiring one long coherent dwell.
+    - Noise and precipitation moments are estimated within the same spectral framework.
+- year: 2024
+  published: 2024
+  type: conference
+  slug: overmoded-waveguide
+  domain: Electromagnetics · antennas
+  title: Radiation from the Open-Ended Over-Moded Cylindrical Waveguide
+  authors: Tworit Dash, David Prinsloo, and Alexander Yarovoy
+  venue: URSI AT-RASC
+  url: https://doi.org/10.46620/ursiatrasc24/qeut4611
+  link_label: DOI
+  summary: A modal analysis of radiation from an open cylindrical waveguide when several propagating modes contribute to the aperture field.
+  key_points:
+    - The radiated field is connected explicitly to the waveguide's modal content.
+    - The formulation supports physical interpretation of complex over-moded apertures.
+- year: 2024
+  published: 2024
+  type: conference
+  slug: nonuniform-sampling
+  domain: Sampling theory · radar
+  title: Application of Non-Uniform Sampling to Avoid Aliasing
+  authors: Mohamed et al., including Tworit Dash
+  venue: International Radar Symposium (IRS)
+  url: https://ieeexplore.ieee.org/document/10644744
+  summary: An application of nonuniform acquisition timing to break the periodic ambiguity that produces conventional Doppler aliases.
+  key_points:
+    - Sampling design is used to change the information in the measurement before reconstruction.
+    - The approach targets the cause of aliasing rather than only its visible outcome.
+- year: 2024
+  published: 2024
+  type: conference
+  slug: circular-statistics
+  domain: Spectral estimation · directional statistics
+  title: Application of Circular Statistics on Doppler Spectrum
+  authors: Lu et al., including Tworit Dash
+  venue: IEEE Radar Conference
+  url: https://ieeexplore.ieee.org/document/10993795
+  summary: An exploration of circular statistics for Doppler quantities whose sampled frequency or velocity naturally wraps at the ambiguity boundary.
+  key_points:
+    - Periodic Doppler coordinates are treated on a circle rather than an artificial line interval.
+    - Circular moments avoid discontinuities introduced at the Nyquist boundary.
+- year: 2023
+  published: 20 September 2023
+  type: conference
+  slug: fast-scan-beamforming
+  domain: Phased arrays · weather radar
+  title: Beamforming for a Fast Scanning Phased Array Weather Radar
+  authors: Tworit Dash, Alexandru Gîrdianu, Oleg A. Krasnov, and Alexander G. Yarovoy
+  venue: European Radar Conference (EuRAD)
+  url: https://doi.org/10.23919/EuRAD58043.2023.10289351
+  link_label: DOI
+  summary: A beamforming study for rapid volumetric weather sensing with a phased array under short observation times.
+  key_points:
+    - Array processing is evaluated together with the temporal constraints of fast scanning.
+    - The work connects beam design to the quality of downstream Doppler measurements.
+- year: 2023
+  published: 15 November 2023
+  type: conference
+  slug: gaussian-process-spectrum
+  domain: Spectral estimation · Bayesian inference
+  title: Precipitation Doppler Spectrum Reconstruction With Gaussian Process Prior
+  authors: Tworit K. Dash, Hans Driessen, Oleg A. Krasnov, and Alexander Yarovoy
+  venue: IEEE CAMA
+  url: https://doi.org/10.1109/CAMA57522.2023.10352683
+  link_label: DOI
+  summary: A Bayesian reconstruction of precipitation Doppler spectra using a Gaussian-process prior to regularize short and incomplete observations.
+  key_points:
+    - Prior smoothness expresses physically plausible spectral structure.
+    - The posterior describes uncertainty in the reconstructed spectrum rather than returning only one curve.
+- year: 2022
+  published: 2022
+  type: conference
+  slug: wind-field-performance
+  domain: Weather radar · estimation
+  title: Performance Analysis of the Wind Field Estimation for a Very Fast Scanning Weather Radar
+  authors: Tworit Dash, Oleg A. Krasnov, and Alexander G. Yarovoy
+  venue: International Radar Symposium (IRS)
+  url: https://ieeexplore.ieee.org/document/9798794
+  summary: A performance analysis of wind estimation when very fast scanning leaves only a small number of coherent samples per look.
+  key_points:
+    - Scan speed and estimator accuracy are linked through the available observation time.
+    - The analysis establishes where conventional wind estimates become unreliable.
+- year: 2020
+  published: 2020
+  type: thesis
+  slug: conical-horn
+  domain: Electromagnetics · antenna design
+  title: Computationally Efficient Conical Horn Antenna Design
+  authors: Tworit K. Dash
+  venue: MSc thesis, TU Delft
+  url: http://resolver.tudelft.nl/uuid:190e87c7-9309-470f-a821-43b7c3b8867b
+  link_label: Thesis
+  summary: A theoretical and computationally efficient design method for conical horn antennas developed with ASTRON.
+  key_points:
+    - Analytical electromagnetic structure reduces reliance on repeated full-wave simulation.
+    - The work connects modal waveguide behaviour to far-field antenna performance.

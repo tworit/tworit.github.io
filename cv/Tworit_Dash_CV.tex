@@ -1,0 +1,99 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper,margin=16mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,xcolor,enumitem,tabularx,array,titlesec,microtype,lastpage,fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Academic CV - Tworit Kumar Dash},pdfauthor={Tworit Kumar Dash},pdfsubject={Model-Based Inference Researcher}}
+\definecolor{ink}{HTML}{2D2824}
+\definecolor{clay}{HTML}{925F43}
+\definecolor{sand}{HTML}{E9DED0}
+\definecolor{muted}{HTML}{6E645B}
+\color{ink}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=4mm,itemsep=1.5pt,topsep=2pt}
+\renewcommand{\familydefault}{\sfdefault}
+\titleformat{\section}{\large\bfseries\color{clay}}{}{0pt}{}[\vspace{-2pt}\color{sand}\rule{\linewidth}{0.7pt}]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+\pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\color{muted}Tworit Dash}
+\fancyfoot[R]{\footnotesize\color{muted}Page \thepage\ of \pageref{LastPage}}
+\newcommand{\entry}[4]{\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{25mm}X@{}}\color{muted}\small #1 & \textbf{#2}\hfill{\small\color{muted}#3}\\ & #4\end{tabularx}\vspace{1.5pt}}
+\newcommand{\pub}[3]{\item \textbf{#1}. #2. \textit{#3}.}
+\newcommand{\pill}[1]{\colorbox{sand}{\strut\footnotesize #1}}
+\begin{document}
+{\fontsize{28}{31}\selectfont\bfseries Tworit Kumar Dash}\hfill
+\begin{minipage}[t]{0.42\linewidth}\raggedleft\small
+\href{mailto:T.K.Dash@tudelft.nl}{T.K.Dash@tudelft.nl}\\
+\href{https://tworit.github.io}{tworit.github.io}\quad \href{https://orcid.org/0000-0003-3127-8841}{ORCID}\\
+Delft, The Netherlands
+\end{minipage}
+
+{\large\color{clay}\textbf{Model-Based Inference Researcher}}\\[-1pt]
+{\small\color{muted}Statistical signal processing \(\cdot\) inverse problems \(\cdot\) spectral estimation \(\cdot\) electromagnetics}
+
+\section{Research Profile}
+I combine physical models, statistical inference, and information theory to determine what measurements contain, what they lose, and why. My work emphasizes interpretable forward models, identifiability, uncertainty, and performance bounds. I develop these ideas across Doppler spectra, phased-array sensing, precipitation retrieval, automotive radar, and electromagnetic field and antenna-array measurements.
+
+\pill{Model-based inversion}\ \pill{Likelihood methods}\ \pill{Cramer--Rao bounds}\ \pill{Sampling and aliasing}\ \pill{Array processing}\ \pill{Spherical harmonics}
+
+\section{Appointments}
+\entry{2025--present}{Postdoctoral Researcher}{TU Delft}{Model-based array and spectral inference for phased-array atmospheric radar and antenna measurements in the Microwave Sensing, Signals and Systems group.}
+\entry{2020--2025}{Doctoral Researcher}{TU Delft}{Theory and estimators for short-record Doppler processing: finite-sample spectrum models, counter-aliasing, incoherent processing, and uncertainty analysis.}
+\entry{2016--2018}{Calibration Engineer}{Bosch, Bangalore}{Statistical modelling and threshold design for passenger-vehicle misfire and catalyst diagnostics.}
+
+\section{Education}
+\entry{2025}{PhD, Electrical Engineering}{TU Delft}{\textit{On Doppler Processing for Fast Scanning Weather Radars}.}
+\entry{2020}{MSc, Electrical Engineering, cum laude}{TU Delft / ASTRON}{Telecommunication and Sensing Systems. Thesis on computationally efficient conical horn design.}
+\entry{2016}{BTech, Electronics and Instrumentation}{CET Bhubaneswar}{CGPA 8.94/10; alumni merit award for best final-year undergraduate student.}
+
+\section{Selected Publications}
+\begin{itemize}
+\pub{T. Dash, S. Yuan, J. Heylen, and A. Yarovoy}{Doppler Moment Estimation for Precipitation With a Phased Array Radar Using Latent Beamforming}{IEEE TGRS, published 2025. DOI: 10.1109/TGRS.2025.3645429}
+\pub{A. Pappas, T. Dash, et al}{Adaptive Radar Approaches for Doppler Moment Estimation}{IEEE GRSL, published 2025. DOI: 10.1109/LGRS.2025.3646459}
+\pub{S. Yuan, T. K. Dash, et al}{A Doppler De-Aliasing Technique for FMCW-TDM MIMO Automotive Radar}{IEEE TIM, 2025. DOI: 10.1109/TIM.2025.3623765}
+\pub{T. Dash, N. B. Onat, Y. Aslan, and A. Yarovoy}{Using Spherical Harmonics to Model Mutual Coupling Effects on Embedded Element Patterns}{ICEAA, 2025. DOI: 10.1109/ICEAA65662.2025.11305766}
+\pub{T. Dash, H. Driessen, O. A. Krasnov, and A. G. Yarovoy}{Counter-Aliasing Is Better Than De-Aliasing}{IEEE TGRS, 2024. DOI: 10.1109/TGRS.2024.3438567}
+\pub{T. Dash, H. Driessen, O. Krasnov, and A. Yarovoy}{Doppler Spectrum Parameter Estimation Using a Parametric Semi-Analytical Model}{IEEE TGRS, 2024. DOI: 10.1109/TGRS.2023.3338233}
+\end{itemize}
+
+\newpage
+{\Large\bfseries Tworit Kumar Dash}\hfill{\small\color{muted}Academic CV}
+\section{Additional Research Outputs}
+\begin{itemize}
+\item "Joint Retrieval of Radial Wind, Terminal Fall Velocity, and Median Diameter From Single-Polarization Fast-Scanning Weather Radar," arXiv:2608.02364, 2026.
+\item "Parametric Estimation of Elevation-Doppler Profiles with Phased Array Radar for Precipitation," EuRAD, 2025.
+\item "Assessing Polarimetric Weather Radar Data Quality Under Cross-Polar Coupling and Sampling Limits," IEEE Radar Conference, 2025.
+\item "Incoherent Doppler Processing for Doppler Moment and Noise Estimation for Precipitation," URSI AT-RASC, 2024.
+\item "Radiation from the Open-Ended Over-Moded Cylindrical Waveguide," URSI AT-RASC, 2024.
+\item "Precipitation Doppler Spectrum Reconstruction With Gaussian Process Prior," IEEE CAMA, 2023.
+\item "Beamforming for a Fast Scanning Phased Array Weather Radar," EuRAD, 2023.
+\end{itemize}
+{\small Complete list: \href{https://tworit.github.io/\#publications}{tworit.github.io/\#publications}}
+
+\section{Open Research Software and Data}
+\entry{TWORIT}{Theoretical waveguide solver}{4TU.ResearchData}{S-parameters and far fields of cascaded cylindrical and irregular tapered-cone waveguide structures.}
+\entry{WiDSE}{Wind and DSD Estimator}{4TU.ResearchData}{Model-based wind and raindrop-size retrieval from weather-radar Doppler spectra.}
+\entry{PSE}{Parametric Spectrum Estimator}{4TU.ResearchData}{Finite-record estimation of precipitation Doppler moments with processed radar data.}
+
+\section{Methods and Technical Skills}
+\begin{tabularx}{\linewidth}{@{}>{\bfseries\color{clay}}p{35mm}X@{}}
+Inference & Maximum likelihood, Bayesian inference, Hamiltonian Monte Carlo, Fisher information, Cramer--Rao bounds, uncertainty quantification\\
+Signal processing & Spectral estimation, irregular sampling, aliasing analysis, Doppler processing, array processing, Gaussian processes\\
+Electromagnetics & Waveguide theory, modal methods, antenna arrays, embedded element patterns, vector spherical harmonics\\
+Programming & MATLAB, Python, Ruby; reproducible numerical simulation and data analysis\\
+Tools & CST Studio Suite, FEKO, Git, Linux, Windows, macOS
+\end{tabularx}
+
+\section{Awards and Communication}
+\entry{2020}{MSc graduated cum laude}{TU Delft}{Telecommunication and Sensing Systems; thesis research conducted with ASTRON.}
+\entry{2016}{Alumni Merit Award}{CET Bhubaneswar}{Best final-year undergraduate student.}
+\entry{}{Technical speaking}{}{Internet of Things and Ruby talks at Eurucamp 2014, Euruko 2015, and Deccan Ruby Conference.}
+
+\section{Languages}
+Odia (native), English (fluent), Hindi (professional), Sanskrit (beginner).
+
+\vfill
+{\small\color{muted}Last updated August 2026. References available on request.}
+\end{document}
+
