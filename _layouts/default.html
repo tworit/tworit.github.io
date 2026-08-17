@@ -9,10 +9,9 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header"><a class="wordmark" href="#top" aria-label="Tworit Dash, home"><span>∴</span> Tworit Dash</a><nav aria-label="Main navigation"><a href="#research">Research</a><a href="#publications">Publications</a><a href="#software">Software</a></nav></header>
+  <header class="site-header"><a class="wordmark" href="{{ '/' | relative_url }}#top" aria-label="Tworit Dash, home"><span>∴</span> Tworit Dash</a><nav aria-label="Main navigation"><a href="{{ '/' | relative_url }}#research">Research</a><a href="{{ '/' | relative_url }}#publications">Publications</a><a href="{{ '/' | relative_url }}#software">Software</a><a href="{{ '/archive/' | relative_url }}">Archive</a></nav></header>
   <main id="main">{{ content }}</main>
   <footer class="site-footer"><p><span class="prompt">Tworit Dash</span> · Model-based inference across signals and fields</p><p>© {{ 'now' | date: '%Y' }} · Built with Ruby + Jekyll</p></footer>
   <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
 </body>
 </html>
-

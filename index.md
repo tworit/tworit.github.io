@@ -63,6 +63,17 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
   <div class="project-grid">{% for project in site.data.projects %}<a class="project" href="{{ project.url }}"><div><span class="project-kind">{{ project.kind }}</span><span aria-hidden="true">↗</span></div><h3>{{ project.name }}</h3><p>{{ project.description }}</p><code>{{ project.code }}</code></a>{% endfor %}</div>
 </section>
 
-<section class="contact section"><div class="shell contact-inner"><p class="kicker">04 / Contact</p><h2>Let’s find the signal<br>in the noise.</h2><p>Interested in inverse problems, spectral inference, electromagnetics, or a research collaboration?</p><a class="button primary" href="mailto:T.K.Dash@tudelft.nl">T.K.Dash@tudelft.nl <span aria-hidden="true">↗</span></a></div></section>
+<section id="archive" class="section archive-section"><div class="shell">
+  <div class="section-heading split"><div><p class="kicker">04 / From the archive</p><h2>The same questions,<br>before the lab.</h2></div><p class="section-note">Selected writing from 2014–2019: Ruby conferences, robots, hand-built Fourier transforms, and an early encounter with inverse problems.</p></div>
+  <div class="archive-grid">
+    <a class="archive-feature" href="{{ '/archive/ruby-chronicles/' | relative_url }}"><span class="archive-date">2014 · Field note</span><h3>Ruby Chronicles:<br>The Eurucamp Story</h3><p>My first international conference, my first technical talk, a robot in my luggage—and many other firsts.</p><span class="read-more">Read the story ↗</span></a>
+    <div class="archive-stack">
+      <a href="{{ '/archive/svd-image-compression/' | relative_url }}"><span>2019 · Linear algebra</span><strong>Image compression with singular-value decomposition</strong><em>Inverse problems in the making →</em></a>
+      <a href="{{ '/archive/atom-bot/' | relative_url }}"><span>2014 · Hardware</span><strong>Our Atom Bot</strong><em>Ruby, Raspberry Pi, Arduino, and a websocket →</em></a>
+      <a href="{{ '/archive/dft-python/' | relative_url }}"><span>2014 · Signals</span><strong>DFT using basic Python and NumPy</strong><em>Understanding the transform by rebuilding it →</em></a>
+    </div>
+  </div>
+  <div class="beyond-strip"><p class="kicker">Beyond research</p><p>Conference speaker · hardware tinkerer · Ruby instructor · sketcher · cyclist · lifelong learner</p><a href="{{ '/archive/' | relative_url }}">Explore the archive <span aria-hidden="true">→</span></a></div>
+</div></section>
 
-
+<section class="contact section"><div class="shell contact-inner"><p class="kicker">05 / Contact</p><h2>Let’s find the signal<br>in the noise.</h2><p>Interested in inverse problems, spectral inference, electromagnetics, or a research collaboration?</p><a class="button primary" href="mailto:T.K.Dash@tudelft.nl">T.K.Dash@tudelft.nl <span aria-hidden="true">↗</span></a></div></section>
