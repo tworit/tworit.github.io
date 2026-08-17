@@ -5,6 +5,7 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
 <div id="top" class="hero shell">
   <div class="hero-copy">
     <p class="eyebrow"><span class="status-dot"></span> Model-Based Inference Researcher · TU Delft</p>
+    <p class="hero-name">Tworit Dash</p>
     <h1>I find structure<br>in <span>measurements.</span></h1>
     <p class="lede">I combine physical models, spectral estimation, and information theory to understand what data contains, what it loses, and why—across signals and electromagnetics.</p>
     <div class="actions"><a class="button primary" href="#publications">Explore my work <span aria-hidden="true">↓</span></a><a class="button secondary" href="{{ '/Tworit_Kumar_Dash_Resume.pdf' | relative_url }}">Download CV <span aria-hidden="true">↗</span></a></div>
