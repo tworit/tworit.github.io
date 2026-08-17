@@ -47,8 +47,31 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
     </div>
   </div></div>
 
+<section id="about" class="section about-section"><div class="shell about-grid">
+  <div class="about-copy">
+    <p class="kicker">01 / About me</p>
+    <h2>Curiosity became<br>a research method.</h2>
+    <p class="about-lede">I am Tworit Dash, a researcher at TU Delft working on model-based inference across signals and electromagnetic fields.</p>
+    <p>Long before formal research, I was writing Ruby, teaching programming, speaking at open-source conferences, and connecting Raspberry Pi and ARM hardware to things I wanted to understand. That instinct—to open the black box and trace every connection—eventually became the way I approach measurement science.</p>
+    <p>Weather radar has been the principal application in my work, but the deeper questions travel well: What is identifiable? Where does information disappear? Why does aliasing arise? Which limit belongs to the measurement itself rather than the algorithm? I now carry those questions into spectral estimation, information bounds, antenna arrays, and spherical-wave measurements.</p>
+    <p>I value research that leaves a clear map of a problem. A useful paper, to me, does more than make a technique work: it explains why it works, where it cannot work, and how the same mathematics appears elsewhere.</p>
+    <div class="about-links"><a href="{{ '/Tworit_Kumar_Dash_Resume.pdf' | relative_url }}">Curriculum vitae ↗</a><a href="{{ '/archive/' | relative_url }}">Earlier writing ↗</a></div>
+  </div>
+  <aside class="field-notes" aria-label="Research working principles">
+    <p class="note-label">working notes · T.D.</p>
+    <h3>How I tend to<br>approach a problem</h3>
+    <ol>
+      <li><span>01</span><strong>Start with the physics.</strong><em>What generated the measurement?</em></li>
+      <li><span>02</span><strong>Interrogate the model.</strong><em>What is observable—and what is ambiguous?</em></li>
+      <li><span>03</span><strong>Find the boundary.</strong><em>Derive the limit before celebrating the estimate.</em></li>
+      <li><span>04</span><strong>Look sideways.</strong><em>The same structure may already live in another field.</em></li>
+    </ol>
+    <p class="note-equation">y = 𝓗(θ) + ε &nbsp; → &nbsp; what survives?</p>
+  </aside>
+</div></section>
+
 <section id="research" class="section shell">
-  <div class="section-heading split"><div><p class="kicker">01 / Research</p><h2>Understanding before optimizing.</h2></div><p class="section-note">I look beyond a working technique to ask what makes it work, where information is lost, and which limits no algorithm can overcome.</p></div>
+  <div class="section-heading split"><div><p class="kicker">02 / Research</p><h2>Understanding before optimizing.</h2></div><p class="section-note">I look beyond a working technique to ask what makes it work, where information is lost, and which limits no algorithm can overcome.</p></div>
   <div class="research-grid">
     <article><span class="glyph">∫</span><h3>Model-based inference</h3><p>Turning physical structure into interpretable inverse problems—and exposing identifiability, ambiguity, and fundamental limits.</p></article>
     <article><span class="glyph">ℐ</span><h3>Spectra & information</h3><p>Studying spectral estimation, aliasing, likelihood geometry, and Cramér–Rao bounds to understand what measurements truly support.</p></article>
@@ -57,7 +80,7 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
 </section>
 
 <section id="publications" class="section publications-section"><div class="shell">
-  <div class="section-heading split"><div><p class="kicker">02 / Publications</p><h2>Research log</h2></div><p class="section-note">Peer-reviewed papers, conference contributions, theses, and preprints. Updated August 2026.</p></div>
+  <div class="section-heading split"><div><p class="kicker">03 / Publications</p><h2>Research log</h2></div><p class="section-note">Peer-reviewed papers, conference contributions, theses, and preprints. Updated August 2026.</p></div>
   <div class="filterbar" role="group" aria-label="Filter publications"><button class="filter active" data-filter="all" aria-pressed="true">All <span>{{ site.data.publications | size }}</span></button><button class="filter" data-filter="journal" aria-pressed="false">Journals</button><button class="filter" data-filter="conference" aria-pressed="false">Conferences</button><button class="filter" data-filter="preprint" aria-pressed="false">Preprints</button><button class="filter" data-filter="thesis" aria-pressed="false">Theses</button></div>
   <div class="publication-list">{% assign grouped = site.data.publications | group_by: 'year' %}{% for year in grouped %}<div class="year-group" data-year-group><div class="year"><span>{{ year.name }}</span></div><div>{% for paper in year.items %}<article class="publication" data-type="{{ paper.type }}"><div class="pub-meta"><span class="tag {{ paper.type }}">{{ paper.type }}</span><span>{{ paper.venue }}</span><span>{{ paper.published }}</span></div><h3><button class="paper-title" type="button" data-paper-open>{{ paper.title }}</button></h3><p>{{ paper.authors }}</p><div class="paper-actions"><button class="paper-link paper-note-link" type="button" data-paper-open>Key ideas <span aria-hidden="true">＋</span></button><a class="paper-link" href="{{ paper.url }}">{% if paper.link_label %}{{ paper.link_label }}{% else %}Publisher{% endif %} <span aria-hidden="true">↗</span></a></div><div class="paper-detail" hidden><p class="dialog-domain">{{ paper.domain }}</p><h2>{{ paper.title }}</h2><p class="dialog-citation">{{ paper.authors }} · {{ paper.venue }} · {{ paper.published }}{% if paper.volume_year %}<br>{{ paper.volume_year }}{% endif %}</p><p class="dialog-summary">{{ paper.summary }}</p><h3>Key messages</h3><ul>{% for point in paper.key_points %}<li>{{ point }}</li>{% endfor %}</ul><a class="button dialog-doi" href="{{ paper.url }}">Open native record <span aria-hidden="true">↗</span></a></div></article>{% endfor %}</div></div>{% endfor %}</div>
 </div></section>
@@ -67,12 +90,12 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
   <div class="dialog-content"></div>
 </dialog>
 <section id="software" class="section shell">
-  <div class="section-heading split"><div><p class="kicker">03 / Open work</p><h2>Tools & data</h2></div><p class="section-note">Reproducible implementations of the models behind my work—from spectral inference to electromagnetic field analysis.</p></div>
+  <div class="section-heading split"><div><p class="kicker">04 / Open work</p><h2>Tools & data</h2></div><p class="section-note">Reproducible implementations of the models behind my work—from spectral inference to electromagnetic field analysis.</p></div>
   <div class="project-grid">{% for project in site.data.projects %}<a class="project" href="{{ project.url }}"><div><span class="project-kind">{{ project.kind }}</span><span aria-hidden="true">↗</span></div><h3>{{ project.name }}</h3><p>{{ project.description }}</p><code>{{ project.code }}</code></a>{% endfor %}</div>
 </section>
 
 <section id="archive" class="section archive-section"><div class="shell">
-  <div class="section-heading split"><div><p class="kicker">04 / From the archive</p><h2>The same questions,<br>before the lab.</h2></div><p class="section-note">Selected writing from 2014–2019: Ruby conferences, robots, hand-built Fourier transforms, and an early encounter with inverse problems.</p></div>
+  <div class="section-heading split"><div><p class="kicker">05 / From the archive</p><h2>The same questions,<br>before the lab.</h2></div><p class="section-note">Selected writing from 2014–2019: Ruby conferences, robots, hand-built Fourier transforms, and an early encounter with inverse problems.</p></div>
   <div class="archive-grid">
     <a class="archive-feature" href="{{ '/archive/ruby-chronicles/' | relative_url }}"><span class="archive-date">2014 · Field note</span><h3>Ruby Chronicles:<br>The Eurucamp Story</h3><p>My first international conference, my first technical talk, a robot in my luggage—and many other firsts.</p><span class="read-more">Read the story ↗</span></a>
     <div class="archive-stack">
@@ -84,4 +107,4 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
   <div class="beyond-strip"><p class="kicker">Beyond research</p><p>Conference speaker · hardware tinkerer · Ruby instructor · sketcher · cyclist · lifelong learner</p><a href="{{ '/archive/' | relative_url }}">Explore the archive <span aria-hidden="true">→</span></a></div>
 </div></section>
 
-<section class="contact section"><div class="shell contact-inner"><p class="kicker">05 / Contact</p><h2>Let’s find the signal<br>in the noise.</h2><p>Interested in inverse problems, spectral inference, electromagnetics, or a research collaboration?</p><a class="button primary" href="mailto:T.K.Dash@tudelft.nl">T.K.Dash@tudelft.nl <span aria-hidden="true">↗</span></a></div></section>
+<section class="contact section"><div class="shell contact-inner"><p class="kicker">06 / Contact</p><h2>Let’s find the signal<br>in the noise.</h2><p>Interested in inverse problems, spectral inference, electromagnetics, or a research collaboration?</p><a class="button primary" href="mailto:T.K.Dash@tudelft.nl">T.K.Dash@tudelft.nl <span aria-hidden="true">↗</span></a></div></section>
