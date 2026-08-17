@@ -63,7 +63,9 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
     </div>
     <div class="about-links"><a href="{{ '/Tworit_Kumar_Dash_Resume.pdf' | relative_url }}">Curriculum vitae ↗</a><a href="{{ '/archive/' | relative_url }}">Earlier writing ↗</a></div>
   </div>
-  <aside class="field-notes" aria-label="Research working principles">
+  <div class="about-side">
+    <figure class="about-portrait"><img src="{{ '/assets/images/tworit-dash.jpg' | relative_url }}" alt="Portrait of Tworit Dash"><figcaption>Tworit Dash · TU Delft</figcaption></figure>
+    <aside class="field-notes" aria-label="Research working principles">
     <p class="note-label">working notes · T.D.</p>
     <h3>How I approach<br>a research problem</h3>
     <ol>
@@ -73,7 +75,8 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
       <li><span>04</span><strong>Connect the fields.</strong><em>Does the same mathematics appear somewhere else?</em></li>
     </ol>
     <p class="note-equation">y = 𝓗(θ) + ε &nbsp; → &nbsp; what remains?</p>
-  </aside>
+    </aside>
+  </div>
 </div></section>
 
 <section id="research" class="section shell">
