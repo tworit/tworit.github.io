@@ -11,34 +11,41 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
     <div class="actions"><a class="button primary" href="#publications">Explore my work <span aria-hidden="true">↓</span></a><a class="button secondary" href="{{ '/Tworit_Kumar_Dash_Resume.pdf' | relative_url }}">Download CV <span aria-hidden="true">↗</span></a></div>
     <div class="socials" aria-label="Profile links"><a href="https://orcid.org/0000-0003-3127-8841">ORCID</a><a href="https://research.tudelft.nl/en/persons/tk-dash/">TU Delft</a><a href="https://github.com/tworitdash">GitHub</a></div>
   </div>
-  <div class="inference-card" aria-hidden="true">
-    <div class="inference-head"><span>INVERSE_PROBLEM</span><span>θ̂ = arg max ℒ(θ|y)</span></div>
-    <svg class="inference-map" viewBox="0 0 520 510" role="img">
-      <defs>
-        <linearGradient id="trace" x1="0" x2="1"><stop stop-color="#9a6547"/><stop offset="1" stop-color="#c9875f"/></linearGradient>
-        <radialGradient id="likelihood"><stop stop-color="#c9875f" stop-opacity=".22"/><stop offset="1" stop-color="#9a6547" stop-opacity="0"/></radialGradient>
-      </defs>
-      <g class="grid-lines"><path d="M40 55H480M40 125H480M40 195H480M40 265H480M40 335H480"/><path d="M80 30V370M160 30V370M240 30V370M320 30V370M400 30V370"/></g>
-      <text x="42" y="23">MEASURED SPECTRUM · y(f)</text>
-      <path class="spectrum-shadow" d="M42 115 C70 112 78 105 93 108 S118 122 134 110 S157 84 171 109 S199 123 212 101 S232 61 252 107 S278 124 291 105 S309 79 323 105 S351 117 367 102 S391 93 405 108 S442 113 478 106"/>
-      <path class="spectrum" d="M42 115 C70 112 78 105 93 108 S118 122 134 110 S157 84 171 109 S199 123 212 101 S232 61 252 107 S278 124 291 105 S309 79 323 105 S351 117 367 102 S391 93 405 108 S442 113 478 106"/>
-      <g class="flow"><path d="M260 144V182"/><path d="M254 174L260 182 266 174"/></g>
-      <text x="42" y="190">MODEL · p(y|θ)</text><text class="equation" x="42" y="220">physics + statistics</text>
-      <g class="model-nodes"><circle cx="218" cy="210" r="5"/><circle cx="260" cy="210" r="5"/><circle cx="302" cy="210" r="5"/><path d="M223 210H255M265 210H297"/></g>
-      <g class="flow"><path d="M260 235V273"/><path d="M254 265L260 273 266 265"/></g>
-      <text x="42" y="286">INFORMATION GEOMETRY · ℒ(θ)</text>
-      <g class="contours" transform="translate(335 326) rotate(-18)"><ellipse rx="100" ry="42"/><ellipse rx="72" ry="29"/><ellipse rx="43" ry="16"/><circle r="4"/></g>
-      <path class="bound" d="M74 342 C118 294 164 300 203 328 S272 365 315 332"/>
-      <circle class="estimate" cx="203" cy="328" r="5"/><text class="estimate-label" x="211" y="322">θ̂</text>
-      <g class="application-tree">
-        <path class="trunk" d="M260 370V400 M260 390C230 402 205 414 174 439 M260 390C290 402 315 414 346 439 M260 400V449"/>
-        <circle cx="174" cy="439" r="4"/><circle cx="260" cy="449" r="4"/><circle cx="346" cy="439" r="4"/>
-        <text x="174" y="468">SENSING &amp; RADAR</text><text x="260" y="486">SPECTRA</text><text x="346" y="468">ANTENNAS &amp; EM</text>
-      </g>
-    </svg>
-    <div class="inference-foot"><span>PHYSICAL MODELS</span><span>INFORMATION</span><span class="accent">INFERENCE</span></div>
-  </div>
-</div>
+  <div class="inference-ecosystem">
+    <div class="inference-card" aria-label="A shared model-based inference core">
+      <div class="inference-head"><span>INVERSE_PROBLEM</span><span>θ̂ = arg max ℒ(θ|y)</span></div>
+      <svg class="inference-map" viewBox="0 0 520 385" role="img" aria-label="Measurements pass through physical and statistical models to reveal information geometry and an estimate">
+        <defs><linearGradient id="trace" x1="0" x2="1"><stop stop-color="#9a6547"/><stop offset="1" stop-color="#c9875f"/></linearGradient><radialGradient id="likelihood"><stop stop-color="#c9875f" stop-opacity=".22"/><stop offset="1" stop-color="#9a6547" stop-opacity="0"/></radialGradient></defs>
+        <g class="grid-lines"><path d="M40 55H480M40 125H480M40 195H480M40 265H480M40 335H480"/><path d="M80 30V370M160 30V370M240 30V370M320 30V370M400 30V370"/></g>
+        <text x="42" y="23">MEASURED SPECTRUM · y(f)</text>
+        <path class="spectrum-shadow" d="M42 115 C70 112 78 105 93 108 S118 122 134 110 S157 84 171 109 S199 123 212 101 S232 61 252 107 S278 124 291 105 S309 79 323 105 S351 117 367 102 S391 93 405 108 S442 113 478 106"/>
+        <path class="spectrum" d="M42 115 C70 112 78 105 93 108 S118 122 134 110 S157 84 171 109 S199 123 212 101 S232 61 252 107 S278 124 291 105 S309 79 323 105 S351 117 367 102 S391 93 405 108 S442 113 478 106"/>
+        <g class="flow"><path d="M260 144V182"/><path d="M254 174L260 182 266 174"/></g>
+        <text x="42" y="190">MODEL · p(y|θ)</text><text class="equation" x="42" y="220">physics + statistics</text>
+        <g class="model-nodes"><circle cx="218" cy="210" r="5"/><circle cx="260" cy="210" r="5"/><circle cx="302" cy="210" r="5"/><path d="M223 210H255M265 210H297"/></g>
+        <g class="flow"><path d="M260 235V273"/><path d="M254 265L260 273 266 265"/></g>
+        <text x="42" y="286">INFORMATION GEOMETRY · ℒ(θ)</text>
+        <g class="contours" transform="translate(335 326) rotate(-18)"><ellipse rx="100" ry="42"/><ellipse rx="72" ry="29"/><ellipse rx="43" ry="16"/><circle r="4"/></g>
+        <path class="bound" d="M74 342 C118 294 164 300 203 328 S272 365 315 332"/><circle class="estimate" cx="203" cy="328" r="5"/><text class="estimate-label" x="211" y="322">θ̂</text>
+      </svg>
+      <div class="inference-foot"><span>PHYSICAL MODELS</span><span>INFORMATION</span><span class="accent">INFERENCE</span></div>
+    </div>
+    <div class="external-branches" aria-label="Application branches">
+      <span class="branch-trunk" aria-hidden="true"></span>
+      <article class="branch-card radar-branch">
+        <svg viewBox="0 0 100 64" role="img" aria-label="Radar beams sampling weather"><path d="M50 56V31M45 56H55M50 31L16 8M50 31L84 8M50 31V5"/><path class="branch-fill" d="M15 8Q27 23 39 25M85 8Q73 23 61 25"/><circle cx="50" cy="31" r="4"/></svg>
+        <div><span>01 · Weather sensing</span><h3>Radar & atmospheric retrievals</h3></div>
+      </article>
+      <article class="branch-card spectra-branch">
+        <svg viewBox="0 0 100 64" role="img" aria-label="A spectrum and information bound"><path d="M7 51H94M9 49C21 47 24 39 31 45S43 52 49 30 58 10 64 38 76 47 92 43"/><path class="branch-dash" d="M64 9V52"/></svg>
+        <div><span>02 · Information</span><h3>Spectra, aliasing & bounds</h3></div>
+      </article>
+      <article class="branch-card antenna-branch">
+        <svg viewBox="0 0 100 64" role="img" aria-label="Antenna array and spherical waves"><path d="M10 49H90M22 43V55M39 43V55M56 43V55M73 43V55"/><path class="branch-fill" d="M48 38Q57 23 67 38M40 38Q57 8 76 38"/></svg>
+        <div><span>03 · Electromagnetics</span><h3>Antenna & field measurements</h3></div>
+      </article>
+    </div>
+  </div></div>
 
 <section id="research" class="section shell">
   <div class="section-heading split"><div><p class="kicker">01 / Research</p><h2>Understanding before optimizing.</h2></div><p class="section-note">I look beyond a working technique to ask what makes it work, where information is lost, and which limits no algorithm can overcome.</p></div>
