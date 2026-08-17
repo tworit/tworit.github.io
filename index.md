@@ -7,7 +7,7 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
     <p class="eyebrow"><span class="status-dot"></span> Model-Based Inference Researcher · TU Delft</p>
     <p class="hero-name">Tworit Dash</p>
     <h1>I find structure<br>in <span>measurements.</span></h1>
-    <p class="lede">I combine physical models, spectral estimation, and information theory to understand what data contains, what it loses, and why—across signals and electromagnetics.</p>
+    <p class="lede">I combine physical models, spectral estimation and information theory. I study what measurements contain, what they lose and why.</p>
     <div class="actions"><a class="button primary" href="#publications">Explore my work <span aria-hidden="true">↓</span></a><a class="button secondary" href="{{ '/Tworit_Kumar_Dash_Resume.pdf' | relative_url }}">Download CV <span aria-hidden="true">↗</span></a></div>
     <div class="socials" aria-label="Profile links"><a href="https://orcid.org/0000-0003-3127-8841">ORCID</a><a href="https://research.tudelft.nl/en/persons/tk-dash/">TU Delft</a><a href="https://github.com/tworitdash">GitHub</a></div>
   </div>
@@ -50,32 +50,38 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
 <section id="about" class="section about-section"><div class="shell about-grid">
   <div class="about-copy">
     <p class="kicker">01 / About me</p>
-    <h2>Curiosity became<br>a research method.</h2>
-    <p class="about-lede">I am Tworit Dash, a researcher at TU Delft working on model-based inference across signals and electromagnetic fields.</p>
-    <p>Long before formal research, I was writing Ruby, teaching programming, speaking at open-source conferences, and connecting Raspberry Pi and ARM hardware to things I wanted to understand. That instinct—to open the black box and trace every connection—eventually became the way I approach measurement science.</p>
-    <p>Weather radar has been the principal application in my work, but the deeper questions travel well: What is identifiable? Where does information disappear? Why does aliasing arise? Which limit belongs to the measurement itself rather than the algorithm? I now carry those questions into spectral estimation, information bounds, antenna arrays, and spherical-wave measurements.</p>
-    <p>I value research that leaves a clear map of a problem. A useful paper, to me, does more than make a technique work: it explains why it works, where it cannot work, and how the same mathematics appears elsewhere.</p>
+    <h2>I study models,<br>signals and measurements.</h2>
+    <p class="about-lede">I am a postdoctoral researcher at TU Delft. I work on model-based inference, spectral estimation and electromagnetic measurements.</p>
+    <p>Most of my research has been connected to weather radar. However, I am more interested in the general questions behind a measurement. I want to know what can be estimated, what information has been lost, why ambiguity or aliasing occurs, and which limits come from the measurement system itself.</p>
+    <p>I now use the same way of thinking for antenna arrays and spherical-wave measurements. I like finding the common mathematics between different applications. I also prefer to understand a problem deeply before trying to improve an algorithm.</p>
+    <div class="bio-block">
+      <p class="kicker">A little about my path</p>
+      <h3>I have always liked building things and understanding how they work.</h3>
+      <p>I studied Electronics and Instrumentation at CET Bhubaneswar. During those years I also wrote Ruby, taught programming, spoke at open-source conferences, and built small systems with Raspberry Pi, Arduino and ARM hardware.</p>
+      <p>After graduating in 2016, I worked as a calibration engineer at Bosch in Bangalore. I then moved to the Netherlands for an MSc in Electrical Engineering at TU Delft. My MSc thesis with ASTRON was about conical horn antenna design, and I graduated cum laude in 2020.</p>
+      <p>I completed my PhD at TU Delft in 2025. My thesis studied Doppler processing for fast-scanning weather radars. I am now continuing at TU Delft as a postdoctoral researcher, where I work on phased-array radar, spectral inference and antenna measurements.</p>
+    </div>
     <div class="about-links"><a href="{{ '/Tworit_Kumar_Dash_Resume.pdf' | relative_url }}">Curriculum vitae ↗</a><a href="{{ '/archive/' | relative_url }}">Earlier writing ↗</a></div>
   </div>
   <aside class="field-notes" aria-label="Research working principles">
     <p class="note-label">working notes · T.D.</p>
-    <h3>How I tend to<br>approach a problem</h3>
+    <h3>How I approach<br>a research problem</h3>
     <ol>
-      <li><span>01</span><strong>Start with the physics.</strong><em>What generated the measurement?</em></li>
-      <li><span>02</span><strong>Interrogate the model.</strong><em>What is observable—and what is ambiguous?</em></li>
-      <li><span>03</span><strong>Find the boundary.</strong><em>Derive the limit before celebrating the estimate.</em></li>
-      <li><span>04</span><strong>Look sideways.</strong><em>The same structure may already live in another field.</em></li>
+      <li><span>01</span><strong>Start with the physics.</strong><em>What produced the measurement?</em></li>
+      <li><span>02</span><strong>Study the model.</strong><em>What can be observed? What is ambiguous?</em></li>
+      <li><span>03</span><strong>Find the limits.</strong><em>What is the best the data can support?</em></li>
+      <li><span>04</span><strong>Connect the fields.</strong><em>Does the same mathematics appear somewhere else?</em></li>
     </ol>
-    <p class="note-equation">y = 𝓗(θ) + ε &nbsp; → &nbsp; what survives?</p>
+    <p class="note-equation">y = 𝓗(θ) + ε &nbsp; → &nbsp; what remains?</p>
   </aside>
 </div></section>
 
 <section id="research" class="section shell">
   <div class="section-heading split"><div><p class="kicker">02 / Research</p><h2>Understanding before optimizing.</h2></div><p class="section-note">I look beyond a working technique to ask what makes it work, where information is lost, and which limits no algorithm can overcome.</p></div>
   <div class="research-grid">
-    <article><span class="glyph">∫</span><h3>Model-based inference</h3><p>Turning physical structure into interpretable inverse problems—and exposing identifiability, ambiguity, and fundamental limits.</p></article>
-    <article><span class="glyph">ℐ</span><h3>Spectra & information</h3><p>Studying spectral estimation, aliasing, likelihood geometry, and Cramér–Rao bounds to understand what measurements truly support.</p></article>
-    <article><span class="glyph">Ψ</span><h3>Signals meet fields</h3><p>Connecting statistical signal processing with electromagnetics, from Doppler radar to antenna arrays and spherical-wave measurements.</p></article>
+    <article><span class="glyph">∫</span><h3>Model-based inference</h3><p>I use physical structure to build interpretable inverse problems. I study identifiability, ambiguity and fundamental limits.</p></article>
+    <article><span class="glyph">ℐ</span><h3>Spectra & information</h3><p>I study spectral estimation, aliasing, likelihood geometry and Cramér–Rao bounds to understand what the measurements can support.</p></article>
+    <article><span class="glyph">Ψ</span><h3>Signals meet fields</h3><p>I connect statistical signal processing with electromagnetics. My applications range from Doppler radar to antenna arrays and spherical-wave measurements.</p></article>
   </div>
 </section>
 
@@ -90,14 +96,14 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
   <div class="dialog-content"></div>
 </dialog>
 <section id="software" class="section shell">
-  <div class="section-heading split"><div><p class="kicker">04 / Open work</p><h2>Tools & data</h2></div><p class="section-note">Reproducible implementations of the models behind my work—from spectral inference to electromagnetic field analysis.</p></div>
+  <div class="section-heading split"><div><p class="kicker">04 / Open work</p><h2>Tools & data</h2></div><p class="section-note">Reproducible implementations of the models behind my work, from spectral inference to electromagnetic field analysis.</p></div>
   <div class="project-grid">{% for project in site.data.projects %}<a class="project" href="{{ project.url }}"><div><span class="project-kind">{{ project.kind }}</span><span aria-hidden="true">↗</span></div><h3>{{ project.name }}</h3><p>{{ project.description }}</p><code>{{ project.code }}</code></a>{% endfor %}</div>
 </section>
 
 <section id="archive" class="section archive-section"><div class="shell">
-  <div class="section-heading split"><div><p class="kicker">05 / From the archive</p><h2>The same questions,<br>before the lab.</h2></div><p class="section-note">Selected writing from 2014–2019: Ruby conferences, robots, hand-built Fourier transforms, and an early encounter with inverse problems.</p></div>
+  <div class="section-heading split"><div><p class="kicker">05 / From the archive</p><h2>The same questions,<br>before the lab.</h2></div><p class="section-note">Selected writing from 2014 to 2019 about Ruby conferences, robots, Fourier transforms and my early work with inverse problems.</p></div>
   <div class="archive-grid">
-    <a class="archive-feature" href="{{ '/archive/ruby-chronicles/' | relative_url }}"><span class="archive-date">2014 · Field note</span><h3>Ruby Chronicles:<br>The Eurucamp Story</h3><p>My first international conference, my first technical talk, a robot in my luggage—and many other firsts.</p><span class="read-more">Read the story ↗</span></a>
+    <a class="archive-feature" href="{{ '/archive/ruby-chronicles/' | relative_url }}"><span class="archive-date">2014 · Field note</span><h3>Ruby Chronicles:<br>The Eurucamp Story</h3><p>My first international conference, my first technical talk, a robot in my luggage and many other first experiences.</p><span class="read-more">Read the story ↗</span></a>
     <div class="archive-stack">
       <a href="{{ '/archive/svd-image-compression/' | relative_url }}"><span>2019 · Linear algebra</span><strong>Image compression with singular-value decomposition</strong><em>Inverse problems in the making →</em></a>
       <a href="{{ '/archive/atom-bot/' | relative_url }}"><span>2014 · Hardware</span><strong>Our Atom Bot</strong><em>Ruby, Raspberry Pi, Arduino, and a websocket →</em></a>
