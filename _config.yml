@@ -1,0 +1,10 @@
+title: Tworit Dash
+description: Radar signal processing, atmospheric remote sensing, and applied electromagnetics.
+url: "https://tworit.github.io"
+baseurl: ""
+lang: en
+timezone: Europe/Amsterdam
+markdown: kramdown
+permalink: pretty
+exclude: [Gemfile, Gemfile.lock, README.md, vendor]
+

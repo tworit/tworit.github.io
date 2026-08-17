@@ -1,0 +1,15 @@
+- name: TWORIT
+  kind: Open-source software
+  description: A theoretical solver for S-parameters and far fields of cascaded, irregular tapered-cone waveguide structures.
+  code: EM / waveguides
+  url: https://doi.org/10.4121/E06F14B2-D884-4D1A-88FD-4EE8EBC3A98E
+- name: WiDSE
+  kind: Software + dataset
+  description: Wind and raindrop size distribution estimation from weather-radar Doppler power spectra.
+  code: radar / retrieval
+  url: https://doi.org/10.4121/F5880EB4-8F28-4FF7-8CE1-A36249AC831A
+- name: PSE
+  kind: Software + dataset
+  description: Parametric Spectrum Estimator for precipitation Doppler moments, with processed real-radar data.
+  code: signal processing
+  url: https://doi.org/10.4121/E6921114-10D4-48EC-96B6-DA7714647275
