@@ -1,5 +1,6 @@
 ---
 layout: archive_post
+archive_topic: "Personal note"
 title: "Ruby Chronicles: The Eurucamp Story"
 deck: "My first international conference, my first technical talk, a robot in my luggage—and many other firsts."
 permalink: /archive/ruby-chronicles/

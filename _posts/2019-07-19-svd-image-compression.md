@@ -1,5 +1,6 @@
 ---
 layout: archive_post
+archive_topic: "Personal note"
 title: "Image Compression with Singular Value Decomposition"
 deck: "A holiday experiment with truncated SVD—and an early bridge between imaging, electromagnetics, and inverse problems."
 permalink: /archive/svd-image-compression/

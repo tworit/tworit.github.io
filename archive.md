@@ -1,16 +1,14 @@
 ---
 layout: default
-title: Archive | Tworit Dash
+title: Writing Archive | Tworit Dash
 permalink: /archive/
 ---
 <section class="archive-page shell">
-  <p class="kicker">Notes from 2014–2019</p>
+  <p class="kicker">Complete archive · 2014–2019</p>
   <h1>Before the lab.</h1>
-  <p class="intro">A small, curated part of my original Jekyll blog. These pieces preserve the curiosity, making, and teaching that came before—and eventually grew into—my research in signals, inverse problems, and electromagnetics.</p>
+  <p class="intro">All 22 posts from my original Jekyll and Octopress blog, preserved with their original dates and voice. Together they trace a path through Ruby, open-source software, hardware, signals, mathematics, travel, and personal reflection.</p>
+  <div class="archive-summary"><span><strong>{{ site.posts | size }}</strong> posts</span><span><strong>6</strong> years</span><span><strong>1</strong> continuous thread of curiosity</span></div>
   <div class="archive-list">
-    <a href="{{ '/archive/svd-image-compression/' | relative_url }}"><time>2019</time><strong>Image compression with singular-value decomposition</strong><span>Linear algebra →</span></a>
-    <a href="{{ '/archive/ruby-chronicles/' | relative_url }}"><time>2014</time><strong>Ruby Chronicles: The Eurucamp Story</strong><span>Field note →</span></a>
-    <a href="{{ '/archive/dft-python/' | relative_url }}"><time>2014</time><strong>DFT using basic Python and NumPy</strong><span>Signals →</span></a>
-    <a href="{{ '/archive/atom-bot/' | relative_url }}"><time>2014</time><strong>Our Atom Bot</strong><span>Hardware →</span></a>
+    {% for post in site.posts %}<a href="{{ post.url | relative_url }}"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y' }}</time><strong>{{ post.title }}</strong><span>{{ post.archive_topic | default: 'Original blog' }} →</span></a>{% endfor %}
   </div>
 </section>

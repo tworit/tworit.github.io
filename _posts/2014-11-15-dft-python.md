@@ -1,5 +1,6 @@
 ---
 layout: archive_post
+archive_topic: "Signals & maths"
 title: "DFT using basic Python and NumPy"
 deck: "An early attempt to understand the discrete Fourier transform by building it from basic operations."
 permalink: /archive/dft-python/
