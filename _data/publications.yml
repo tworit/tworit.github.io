@@ -1,4 +1,19 @@
 - year: 2026
+  published: 22 September 2026
+  type: preprint
+  slug: stochastic-fluidized-bed
+  domain: Industrial radar sensing · spectral estimation
+  title: A Stochastic Doppler Sensing Framework for Range-Resolved Bidirectional Particle Dynamics in a Bubbling Fluidized Bed at 60 GHz
+  authors: Tworit Dash, Dingyang Wang, Reddy Madhuri Manila, Wiebren de Jong, and Johan T. Padding
+  venue: arXiv
+  url: https://arxiv.org/abs/2609.26494
+  link_label: arXiv
+  summary: A range-resolved statistical Doppler framework that uses a commercial 60 GHz radar to observe particle motion inside an optically opaque bubbling fluidized bed.
+  key_points:
+    - Doppler power, mean radial velocity, and spectral width are recovered as functions of range and time.
+    - The measurements reveal simultaneous motion towards and away from the radar during developed fluidization.
+    - The analysis determines when one local Doppler lobe is sufficient and when two distinct velocity contributions are supported by the data.
+- year: 2026
   published: 3 August 2026
   type: preprint
   slug: joint-retrieval
@@ -26,6 +41,20 @@
   key_points:
     - Multi-modal structure is treated explicitly instead of being compressed into one set of moments.
     - The estimator adapts its representation to the information present in the observed spectrum.
+- year: 2026
+  published: April 2026
+  type: conference
+  slug: fluidized-bed-flow-characterization
+  domain: Industrial radar sensing · multiphase flow
+  title: Flow Characterization in a Bubbling Fluidized Bed Using a Millimetre-Wave (GHz) Pulse-Doppler Radar
+  authors: Reddy Madhuri Manila, Tworit Dash, Dingyang Wang, Pascal Aubry, Olexander Yarovyi, Johan T. Padding, and Wiebren de Jong
+  venue: AIChE Spring Meeting and 22nd Global Congress on Process Safety
+  url: https://proceedings.aiche.org/conferences/aiche-spring-meeting-and-global-congress-process-safety/2026/proceeding-956
+  link_label: Proceedings
+  summary: An experimental study using a 60 GHz radar to observe bed expansion and particle motion in a dense bubbling fluidized bed without optical access.
+  key_points:
+    - Range-Doppler measurements provide spatial and velocity information that pressure-drop measurements alone cannot resolve.
+    - The work introduces radar sensing as a non-intrusive tool for monitoring dense gas-solid flows.
 - year: 2025
   published: 19 December 2025
   volume_year: IEEE GRSL, volume 23 (2026)
@@ -166,7 +195,7 @@
   type: conference
   slug: precipitation-detection
   domain: Weather radar · detection
-  title: Detection of Precipitation Using Scanning Radars
+  title: Detection of Precipitation Using Scanning Radars With Strong Sectorial Interferences
   authors: Tworit Dash et al.
   venue: IGARSS
   url: https://ieeexplore.ieee.org/document/10642725
@@ -207,7 +236,7 @@
   type: conference
   slug: nonuniform-sampling
   domain: Sampling theory · radar
-  title: Application of Non-Uniform Sampling to Avoid Aliasing
+  title: Application of Non-Uniform Sampling to Avoid Aliasing in the Precipitation Doppler Spectrum
   authors: Mohamed et al., including Tworit Dash
   venue: International Radar Symposium (IRS)
   url: https://ieeexplore.ieee.org/document/10644744
@@ -220,7 +249,7 @@
   type: conference
   slug: circular-statistics
   domain: Spectral estimation · directional statistics
-  title: Application of Circular Statistics on Doppler Spectrum
+  title: Application of Circular Statistics on the Weather Radar Doppler Spectrum
   authors: Lu et al., including Tworit Dash
   venue: IEEE Radar Conference
   url: https://ieeexplore.ieee.org/document/10993795
@@ -242,6 +271,20 @@
   key_points:
     - Array processing is evaluated together with the temporal constraints of fast scanning.
     - The work connects beam design to the quality of downstream Doppler measurements.
+- year: 2023
+  published: 29 August 2023
+  type: conference
+  slug: gaussian-process-models-ams
+  domain: Spectral estimation · Bayesian inference
+  title: Doppler Spectrum Reconstruction for Precipitation With Gaussian Process Models
+  authors: Tworit Dash, Hans Driessen, Oleg A. Krasnov, and Alexander G. Yarovoy
+  venue: 40th AMS Conference on Radar Meteorology
+  url: https://ams.confex.com/ams/40RADAR/webprogram/40RADAR.html
+  link_label: Program
+  summary: A conference presentation on reconstructing precipitation Doppler spectra from short radar observations using Gaussian-process models.
+  key_points:
+    - Gaussian-process covariance models describe physically plausible spectral structure from limited observations.
+    - Hyperparameter estimation and spectrum reconstruction are treated within one probabilistic framework.
 - year: 2023
   published: 15 November 2023
   type: conference
