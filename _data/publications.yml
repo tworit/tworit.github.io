@@ -14,15 +14,15 @@
     - A moment-space ambiguity function describes competing mean-velocity and spectral-width branches through the expected likelihood.
     - Precipitation measurements demonstrate extended-domain branch recovery, while deterministic basin selection accelerates the same likelihood solution.
 - year: 2026
-  published: 6 October 2026
-  type: preprint
+  published: 4 November 2026
+  type: journal
   slug: fast-whittle-pse
   domain: Spectral estimation · weather radar
   title: Fast Whittle Maximum-Likelihood Parametric Spectrum Estimation for Weather-Radar Doppler Moments
   authors: Tworit Dash and Alexander G. Yarovoy
-  venue: arXiv
-  url: https://arxiv.org/abs/2610.09161
-  link_label: arXiv
+  venue: IEEE Geoscience and Remote Sensing Letters
+  url: https://doi.org/10.1109/LGRS.2026.3750098
+  link_label: DOI
   summary: A fast finite-sample Whittle maximum-likelihood estimator for short-dwell weather radar, using FFT synthesis of the model spectrum and its analytic derivatives.
   key_points:
     - The method jointly estimates total power, normalized mean Doppler frequency, and normalized spectral width.

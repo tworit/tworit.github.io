@@ -98,13 +98,17 @@ title: Dr. Tworit Dash | Model-Based Inference Researcher
   <button class="dialog-close" type="button" aria-label="Close paper details">×</button>
   <div class="dialog-content"></div>
 </dialog>
+<section id="supervision" class="section supervision-section"><div class="shell">
+  <div class="section-heading split"><div><p class="kicker">04 / Supervision</p><h2>MSc theses I supervised.</h2></div><p class="section-note">Research developed with MSc students at TU Delft, from Doppler processing and counter-aliasing to meteorological phased-array radar.</p></div>
+  <div class="supervision-list">{% for thesis in site.data.supervision %}<a class="supervision-item" href="{{ thesis.url }}"><span class="supervision-year">{{ thesis.year }}</span><div><p>{{ thesis.student }}</p><h3>{{ thesis.title }}</h3><span>{{ thesis.context }}</span></div><span class="supervision-arrow" aria-hidden="true">↗</span></a>{% endfor %}</div>
+</div></section>
 <section id="software" class="section shell">
-  <div class="section-heading split"><div><p class="kicker">04 / Open work</p><h2>Tools & data</h2></div><p class="section-note">Reproducible implementations of the models behind my work, from spectral inference to electromagnetic field analysis.</p></div>
+  <div class="section-heading split"><div><p class="kicker">05 / Open work</p><h2>Tools & data</h2></div><p class="section-note">Reproducible implementations of the models behind my work, from spectral inference to electromagnetic field analysis.</p></div>
   <div class="project-grid">{% for project in site.data.projects %}<a class="project" href="{{ project.url }}"><div><span class="project-kind">{{ project.kind }}</span><span aria-hidden="true">↗</span></div><h3>{{ project.name }}</h3><p>{{ project.description }}</p><code>{{ project.code }}</code></a>{% endfor %}</div>
 </section>
 
 <section id="archive" class="section archive-section"><div class="shell">
-  <div class="section-heading split"><div><p class="kicker">05 / From the archive</p><h2>The same questions,<br>before the lab.</h2></div><p class="section-note">Selected writing from 2014 to 2019 about Ruby conferences, robots, Fourier transforms and my early work with inverse problems.</p></div>
+  <div class="section-heading split"><div><p class="kicker">06 / From the archive</p><h2>The same questions,<br>before the lab.</h2></div><p class="section-note">Selected writing from 2014 to 2019 about Ruby conferences, robots, Fourier transforms and my early work with inverse problems.</p></div>
   <div class="archive-grid">
     <a class="archive-feature" href="{{ '/archive/ruby-chronicles/' | relative_url }}"><span class="archive-date">2014 · Field note</span><h3>Ruby Chronicles:<br>The Eurucamp Story</h3><p>My first international conference, my first technical talk, a robot in my luggage and many other first experiences.</p><span class="read-more">Read the story ↗</span></a>
     <div class="archive-stack">
