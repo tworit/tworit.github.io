@@ -1,4 +1,62 @@
 - year: 2026
+  published: 2026
+  type: journal
+  slug: beyond-doppler-dilemma
+  domain: Sampling theory · weather radar
+  title: "Beyond the Doppler Dilemma: Improved Fast Weather Radar Unambiguous Doppler Velocity Spectrum Reconstruction From Sparse Aperiodic Sweeps"
+  authors: Tworit Dash, S. A. K. Syed Mohamed, Oleg A. Krasnov, and Alexander G. Yarovoy
+  venue: IEEE Transactions on Radar Systems
+  url: https://doi.org/10.1109/TRS.2026.3745723
+  link_label: DOI
+  summary: A log-periodic slow-time acquisition and complex-Gaussian-process inversion that extends unambiguous Doppler spectrum recovery for sparse, short-dwell weather-radar sweeps.
+  key_points:
+    - Sampling changes only the waiting times between chirps, preserving the fast-time waveform and range-processing chain.
+    - A moment-space ambiguity function describes competing mean-velocity and spectral-width branches through the expected likelihood.
+    - Precipitation measurements demonstrate extended-domain branch recovery, while deterministic basin selection accelerates the same likelihood solution.
+- year: 2026
+  published: 6 October 2026
+  type: preprint
+  slug: fast-whittle-pse
+  domain: Spectral estimation · weather radar
+  title: Fast Whittle Maximum-Likelihood Parametric Spectrum Estimation for Weather-Radar Doppler Moments
+  authors: Tworit Dash and Alexander G. Yarovoy
+  venue: arXiv
+  url: https://arxiv.org/abs/2610.09161
+  link_label: arXiv
+  summary: A fast finite-sample Whittle maximum-likelihood estimator for short-dwell weather radar, using FFT synthesis of the model spectrum and its analytic derivatives.
+  key_points:
+    - The method jointly estimates total power, normalized mean Doppler frequency, and normalized spectral width.
+    - It preserves the finite-sample Gaussian Doppler model and the direct parametric-spectrum-estimation likelihood.
+    - FFT-based evaluation reduces repeated spectrum synthesis from quadratic to log-linear complexity and is tested with simulations and measured MESEWI spectra.
+- year: 2026
+  published: October 2026
+  type: conference
+  slug: joint-wind-fall-diameter
+  domain: Weather radar · inverse problems
+  title: Joint Estimation of Fall Velocity, Radial Wind, and Median Drop Diameter from Doppler Spectra of a Fast-Scanning Weather Radar
+  authors: Tworit Dash, Oleg A. Krasnov, Hans Driessen, and Alexander G. Yarovoy
+  venue: European Radar Conference (EuRAD)
+  url: https://www.eumwa.org/en/knowledge-centre/knowledge-centre.html?author=&doctype=&keyword=&page=1&year=
+  link_label: Proceedings
+  summary: A conference formulation for jointly estimating radial wind, terminal fall velocity, and median drop diameter from fast-scanning weather-radar Doppler spectra.
+  key_points:
+    - Wind and precipitation microphysics are treated within one spectral inverse problem.
+    - The retrieval uses Doppler spectral shape instead of reducing the observation to conventional moments alone.
+- year: 2026
+  published: October 2026
+  type: conference
+  slug: sparse-vsh-reconstruction
+  domain: Antenna measurements · electromagnetics
+  title: Vector Spherical Harmonics Reconstruction of Active Phased Array Radiation Patterns from Sparse Measurements
+  authors: Máté L. Iványi, Tworit Dash, Yankı Aslan, Marco Spirito, Claire Migliaccio, Jean-Yves Dauvignac, Laurent Brochier, and Alexander Yarovoy
+  venue: European Microwave Conference (EuMC)
+  url: https://www.eumwa.org/en/knowledge-centre/knowledge-centre.html?page=45
+  link_label: Proceedings
+  summary: A vector-spherical-harmonic reconstruction of active phased-array radiation patterns from sparse angular measurements.
+  key_points:
+    - Measured array fields are represented in a physics-based spherical modal basis.
+    - The work studies how sparse angular sampling can support reconstruction of complete radiation patterns.
+- year: 2026
   published: 22 September 2026
   type: preprint
   slug: stochastic-fluidized-bed
@@ -36,7 +94,8 @@
   title: Adaptive Multi-Modal Doppler Spectrum Estimation
   authors: Apostolos Pappas, Tworit Dash, Jonas Heylen, Alexander Yarovoy, and Francesco Fioranelli
   venue: International Radar Symposium (IRS)
-  url: https://research.tudelft.nl/en/publications/adaptive-multi-modal-doppler-spectrum-estimation/
+  url: https://doi.org/10.23919/IRS70539.2026.11549330
+  link_label: DOI
   summary: An adaptive treatment of Doppler spectra whose structure cannot be represented adequately by a single spectral mode.
   key_points:
     - Multi-modal structure is treated explicitly instead of being compressed into one set of moments.
